@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Sen', sans-serif;
+    overflow-x: hidden;
+
+}
+
+.door,
+.portfolio {
+    width: 100vw;
+    height: 100vh;
+    background-color: #8b0000;
+    color: darkgrey;
+
+}
+
+.bars {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.pinch {
+    margin-top: -7px;
+}
+
+
+.pinch span {
+    color: black;
+}
+
+.arbok {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.arbok li {
+    list-style: none;
+}
+
+.arbok a {
+    color: darkgrey;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.arbok .li {
+    color: black;
+}
+
+.arbok a:hover {
+    background-color: black;
+    color: #8b0000;
+    transition: ease-in .5s;
+}
+
+.main {
+    margin: 0 auto;
+    width: 90vw;
+    height: 90vh;
+    display: grid;
+    align-items: center;
+    justify-content: center
+}
+
+.main p {
+    display: grid;
+    grid-area: auto;
+}
+
+h1 {
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+}
+
+span {
+    color: black;
+}
+
+.aboutme {
+    width: 100vw;
+    height: 100vh;
+    padding: 5%;
+    background-color: darkgrey;
+}
+
+.aboutme h2 {
+    font-size: 2em;
+    color: #8b0000;
+}
+
+.aboutme .boton a {
+    color: #8b0000;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.aboutme .boton:hover a {
+    color: black;
+    background-color: #8b0000;
+    transition: ease-in .5s;
+}
+
+
+.dividir {
+    height: 4px;
+    width: 60px;
+    background-color: black;
+    margin-top: 5px;
+    margin-bottom: 2em;
+}
+
+#port {
+    font-size: 2.5em;
+    color: darkgrey;
+    padding-top: 1.5em;
+    padding-left: 2em;
+}
+
+.portfolio .container {
+    width: 80vw;
+    height: 80vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 400px;
+    height: 400px;
+    background-color: darkgrey;
+    color: #8b0000;
+    margin: 2em;
+}
+
+.card-title {
+    padding: 20px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.card-data {
+    padding: 4em 1em 1em 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-data a {
+    text-decoration: none;
+    color: black;
+}
+
+.contact-section {
+    background-color: #8b0000;
+    width: 100vw;
+    height: 100vh;
+}
+
+.contact-heading {
+    padding: 2em 1em 1em 2em;
+    margin: 0 auto;
+}
+
+.contact-heading h2 {
+    font-size: 2em;
+    color: darkgrey;
+}
+
+.divider-contact {
+    display: flex;
+    justify-content: center;
+}
+
+.conctact-form h4 {
+    padding-right: 10px;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    margin-top: 2em;
+}
+
+.formulario input {
+    padding: 10px 20px;
+    margin-bottom: 1em;
+    background: none;
+    border: none;
+    border-bottom: 1px solid darkgrey;
+    color: white;
+}
+
+.formulario textarea {
+    height: 150px;
+    background: none;
+    color: darkgrey;
+    padding: 1.5em;
+    border: 1px solid darkgrey;
+}
+
+.boton {
+    padding: 10px 20px;
+    margin: 1em;
+    border: none;
+    text-transform: uppercase;
+    background-color: black;
+    border-radius: 20px;
+    color: #8b0000;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: darkgrey;
+}
